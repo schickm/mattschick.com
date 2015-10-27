@@ -1,0 +1,31 @@
+{
+  "name": "mattschick.com",
+  "version": "0.0.0",
+  "description": "Personal website",
+  "main": "Gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/schickm/mattschick.com.git"
+  },
+  "author": "Matt Schick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/schickm/mattschick.com/issues"
+  },
+  "homepage": "https://github.com/schickm/mattschick.com",
+  "dependencies": {
+    "gulp": "^3.9.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-minify-html": "^1.0.4",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-svgmin": "^1.2.0"
+  }
+}
