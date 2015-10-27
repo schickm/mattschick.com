@@ -10,7 +10,7 @@ All of the static assets are bundled to save space, so I've provided a watcher t
 
 * install node dependencies `npm install`
 * run the gulp watcher `gulp`
-* then open up "dist/index.html" and turn on livereload
+* then open up "dist/index.html" and turn on livereload in your browser
 
 ## Deployment
 To bundle the assets just run `gulp bundle`.  Then copy the contents of the "dist" directory to where you'd like.
