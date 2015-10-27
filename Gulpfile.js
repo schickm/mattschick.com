@@ -44,4 +44,6 @@ gulp.task('watch', function() {
 	gulp.watch('src/**/*.html', ['minify-html']);
 });
 
-gulp.task('default', ['minify-css', 'minify-svg', 'minify-html', 'watch']);
+gulp.task('bundle', ['minify-css', 'minify-svg', 'minify-html']);
+
+gulp.task('default', ['bundle', 'watch']);
